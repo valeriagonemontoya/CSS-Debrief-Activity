@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="./solved.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Concert Schedule</a></li>
+        <li><a href="#">Order Tickets</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- Header and Page Heading -->
+    <header class="center-title">
+      <h1>
+        theReal <br />
+        Harry Styles <br />
+        Fanpage
+      </h1>
+    </header>
+
+    <!-- Main Page Content -->
+    <main>
+
+    <!-- About Section -->
+      <section id="about-sec">
+
+        <h2>About.</h2>
+        <p id="about-blurb">Harry Edward Styles is an English singer, songwriter and actor.
+          His musical career began in 2010 as a solo contestant on the
+          British music competition series The X Factor.
+        </p>
+
+        <div>
+          <figure>
+            <img src="../assets/images/harrystyles.png" alt="harrystyles">
+            <!-- Use the figcaption element for a caption to your image -->
+            <figcaption>
+            Harry Styles performing free concert fundraiser for US wildfire relief
+            </figcaption>
+          </figure>
+
+        <!-- Aside Content -->
+          <aside>
+            <p class="center-title">Facts</p>
+            <ul>
+                <li>Born: February 1, 1994 (age 28 years)</li>
+                <li>From Redditch, United Kingdom</li>
+                <li>Height: 6'0"</li>
+                <li>Music Group: One Direction (since 2010)</li>
+                <li><a href="">See Movies</a></li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Table - Concert Schedule -->
+      <section id="concert-schedule-sec">
+        <h3 class="center-title">Touring</h3>
+
+        <table>
+
+          <thead>
+            <tr>
+              <th colspan="3">Concert Schedule</th>
+            </tr>
+            <tr>
+              <th>Date</th>
+              <th>Time</th>
+              <th>City</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>May 27, 2022</td>
+              <td class="">09:00 pm</td>
+              <td>Columbus</td>
+            </tr>
+            <tr>
+              <td>May 28, 2022</td>
+              <td class="">08:00 pm</td>
+              <td>Lexington</td>
+            </tr>
+            <tr>
+              <td>June 3, 2022</td>
+              <td class="">09:00 pm</td>
+              <td>Miami</td>
+            </tr>
+            <tr>
+              <td>June 4, 2022</td>
+              <td class="">07:00 pm</td>
+              <td>Dallas</td>
+            </tr>
+            <tr>
+              <td>June 10, 2022</td>
+              <td class="">10:00 pm</td>
+              <td>Bend</td>
+            </tr>
+          </tbody>
+            </table>
+        </section>
+
+      <!-- Order Tickets Section -->
+      <section id="ticket-form-sec">
+        <h4 class="center-title">Get Tickets</h4>
+
+        <!-- Form -->
+        <form>
+
+          <label for="name">Name</label>
+          <input id="name" type="text" name="name" placeholder=
+  "name" required>
+          <br>
+
+          <label for="email">Email</label>
+          <input id="email" type="text" name="email" placeholder="email" required>
+          <br>
+
+          <label for="concert-date">Concert Date</label>
+          <input id="concert-date" type="text" name="concert-date" placeholder="mm/dd/yy" required minlength="6">
+          <br>
+
+          <!--Radio button-->
+          <span>Ticket delivery preference:</span>
+          <br>
+          <input id="paperless" type="radio" name="answer" value="paperless" required>
+          <label for="paperless">paperless</label>
+          <br>
+          <input id="us mail" type="radio" name="answer" value="us mail" required>
+          <label for="us mail">us mail</label>
+          <br>
+
+          <h4 class="center-title">Stay In Touch!</h4>
+          <p>Send us a message -- keep us up to date with new things about Harry, or tell us about your user expereince on the site.</p>
+          <!-- Textbox -->
+          <label for="message"></label>
+          <textarea id="message" rows="8" cols="40" required></textarea>
+          <br>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+
+    </main>
+    <footer>
+      <p></p>
+      <p></p>
+    </footer>
+  </body>
+</html>
