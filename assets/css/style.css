@@ -1,6 +1,8 @@
 *{
 	box-sizing: border-box;
 }
+
+
 body {
 font-family:'Open Sans' 'Sans-Serif';
 background-image: linear-gradient('whitesmoke'); rgb(35, 47, 58)
